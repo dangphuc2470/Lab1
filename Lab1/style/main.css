@@ -1,0 +1,91 @@
+/* Add your CSS styles here */
+.container {
+    /* Your container styles */
+}
+
+.heading {
+    /* Your heading styles */
+}
+
+.title {
+    /* Your title styles */
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+}
+
+.author {
+    /* Your author styles */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+
+.hint {
+    /* Your hint styles */
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+}
+
+.main-container {
+    /* Your main container styles */
+}
+
+#canvas {
+    /* Your canvas styles */
+    background-color: #F0F0C8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    /* Your buttons styles */
+}
+
+#reset {
+    /* Your reset button styles */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu label {
+    margin-right: 10px;
+}
+
+.menu select {
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.menu button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #45a049;
+};

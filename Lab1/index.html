@@ -1,0 +1,56 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Drawing Algorithms</title>
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">Drawing Algorithms</h1>
+      <h3 class="author">UIT</h3>
+    </div>
+
+    <div class="menu">
+      <label for="algorithm">Choose an algorithm:</label>
+      <select id="algorithm">
+        <option value="dda">DDA</option>
+        <option value="bresenham">Bresenham</option>
+        <option value="midpoint">Midpoint</option>
+      </select>
+      <button id="apply">Apply</button>
+    </div>
+
+    <p class="hint">ESC</p>
+
+    <div class="main-container">
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="buttons">
+      <button id="reset">
+        Reset
+      </button>
+    </div>
+    <div id="webgl">
+      <script src="lib/three.module.js"></script>
+      <script src="src/main.js"></script>
+      <!-- <script>
+        document.getElementById("apply").addEventListener("click", function () {
+          var algorithm = document.getElementById("algorithm").value;
+          var scriptElement = document.createElement("script");
+          scriptElement.src = "src/" + algorithm + ".js";
+          document.body.appendChild(scriptElement);
+        });
+      </script> -->
+    </div>
+    
+
+  </div>
+</body>
+
+</html>
